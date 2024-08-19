@@ -1,0 +1,6 @@
+brasil = ('Palmeiras','Grêmio','Galão da massa','Flamengo','Botafogo','Bragantino','Fluzudo','Athletico','Inter','Fortaleza','São Paulo','Cuiabá','Corinthians','Cruzeiro','Vascão','Bahia','Santos','Goiás','Coritiba','América')
+print('Os times do Brasileirão são: ',brasil)
+print('Os classificados pra libertadores são:',brasil[:6])
+print('Os rebaixados foram',brasil[16:])
+print('Ordem alfabética:',sorted(brasil))
+print('O são paulo está na posição',brasil.index('São Paulo')+1)
